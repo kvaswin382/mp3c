@@ -33,7 +33,7 @@
       console.log('Finished')
     })
     .run()
-    const mp3_path = 'https://mp3con-ath34859.koyeb.app/'+mp3_file
+    const mp3_path = mp3_file
     const data = {
       'ok': true,
       'mp3': mp3_path
